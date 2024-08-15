@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        td { 
+            width:30px; 
+            height:30px; 
+            border: 1px solid;
+        }
+        tr {
+            display: flex;
+            width: 100%;
+            flex-flow: row wrap;
+        }
+    </style>
+    <script>
+    function pick(color) {
+        navigator.clipboard.writeText(color);
+    }
+    </script>
+</head>
+<body>
+    <table>
+    <tr>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#444400" onclick="pick('#444400')"></td>
+        <td style="background-color:#702800" onclick="pick('#702800')"></td>
+        <td style="background-color:#841800" onclick="pick('#841800')"></td>
+        <td style="background-color:#880000" onclick="pick('#880000')"></td>
+        <td style="background-color:#78005c" onclick="pick('#78005c')"></td>
+        <td style="background-color:#480078" onclick="pick('#480078')"></td>
+        <td style="background-color:#140084" onclick="pick('#140084')"></td>
+        <td style="background-color:#000088" onclick="pick('#000088')"></td>
+        <td style="background-color:#00187c" onclick="pick('#00187c')"></td>
+        <td style="background-color:#002c5c" onclick="pick('#002c5c')"></td>
+        <td style="background-color:#00402c" onclick="pick('#00402c')"></td>
+        <td style="background-color:#003c00" onclick="pick('#003c00')"></td>
+        <td style="background-color:#143800" onclick="pick('#143800')"></td>
+        <td style="background-color:#2c3000" onclick="pick('#2c3000')"></td>
+        <td style="background-color:#442800" onclick="pick('#442800')"></td>
+        <td style="background-color:#404040" onclick="pick('#404040')"></td>
+        <td style="background-color:#646410" onclick="pick('#646410')"></td>
+        <td style="background-color:#844414" onclick="pick('#844414')"></td>
+        <td style="background-color:#983418" onclick="pick('#983418')"></td>
+        <td style="background-color:#9c2020" onclick="pick('#9c2020')"></td>
+        <td style="background-color:#8c2074" onclick="pick('#8c2074')"></td>
+        <td style="background-color:#602090" onclick="pick('#602090')"></td>
+        <td style="background-color:#302098" onclick="pick('#302098')"></td>
+        <td style="background-color:#1c209c" onclick="pick('#1c209c')"></td>
+        <td style="background-color:#1c3890" onclick="pick('#1c3890')"></td>
+        <td style="background-color:#1c4c78" onclick="pick('#1c4c78')"></td>
+        <td style="background-color:#1c5c48" onclick="pick('#1c5c48')"></td>
+        <td style="background-color:#205c20" onclick="pick('#205c20')"></td>
+        <td style="background-color:#345c1c" onclick="pick('#345c1c')"></td>
+        <td style="background-color:#4c501c" onclick="pick('#4c501c')"></td>
+        <td style="background-color:#644818" onclick="pick('#644818')"></td>
+        <td style="background-color:#6c6c6c" onclick="pick('#6c6c6c')"></td>
+        <td style="background-color:#848424" onclick="pick('#848424')"></td>
+        <td style="background-color:#985c28" onclick="pick('#985c28')"></td>
+        <td style="background-color:#ac5030" onclick="pick('#ac5030')"></td>
+        <td style="background-color:#b03c3c" onclick="pick('#b03c3c')"></td>
+        <td style="background-color:#a03c88" onclick="pick('#a03c88')"></td>
+        <td style="background-color:#783ca4" onclick="pick('#783ca4')"></td>
+        <td style="background-color:#4c3cac" onclick="pick('#4c3cac')"></td>
+        <td style="background-color:#3840b0" onclick="pick('#3840b0')"></td>
+        <td style="background-color:#3854a8" onclick="pick('#3854a8')"></td>
+        <td style="background-color:#386890" onclick="pick('#386890')"></td>
+        <td style="background-color:#387c64" onclick="pick('#387c64')"></td>
+        <td style="background-color:#407c40" onclick="pick('#407c40')"></td>
+        <td style="background-color:#507c38" onclick="pick('#507c38')"></td>
+        <td style="background-color:#687034" onclick="pick('#687034')"></td>
+        <td style="background-color:#846830" onclick="pick('#846830')"></td>
+        <td style="background-color:#909090" onclick="pick('#909090')"></td>
+        <td style="background-color:#a0a034" onclick="pick('#a0a034')"></td>
+        <td style="background-color:#ac783c" onclick="pick('#ac783c')"></td>
+        <td style="background-color:#c06848" onclick="pick('#c06848')"></td>
+        <td style="background-color:#c05858" onclick="pick('#c05858')"></td>
+        <td style="background-color:#b0589c" onclick="pick('#b0589c')"></td>
+        <td style="background-color:#8c58b8" onclick="pick('#8c58b8')"></td>
+        <td style="background-color:#6858c0" onclick="pick('#6858c0')"></td>
+        <td style="background-color:#505cc0" onclick="pick('#505cc0')"></td>
+        <td style="background-color:#5070bc" onclick="pick('#5070bc')"></td>
+        <td style="background-color:#5084ac" onclick="pick('#5084ac')"></td>
+        <td style="background-color:#509c80" onclick="pick('#509c80')"></td>
+        <td style="background-color:#5c9c5c" onclick="pick('#5c9c5c')"></td>
+        <td style="background-color:#6c9850" onclick="pick('#6c9850')"></td>
+        <td style="background-color:#848c4c" onclick="pick('#848c4c')"></td>
+        <td style="background-color:#a08444" onclick="pick('#a08444')"></td>
+        <td style="background-color:#b0b0b0" onclick="pick('#b0b0b0')"></td>
+        <td style="background-color:#b8b840" onclick="pick('#b8b840')"></td>
+        <td style="background-color:#bc8c4c" onclick="pick('#bc8c4c')"></td>
+        <td style="background-color:#d0805c" onclick="pick('#d0805c')"></td>
+        <td style="background-color:#d07070" onclick="pick('#d07070')"></td>
+        <td style="background-color:#c070b0" onclick="pick('#c070b0')"></td>
+        <td style="background-color:#a070cc" onclick="pick('#a070cc')"></td>
+        <td style="background-color:#7c70d0" onclick="pick('#7c70d0')"></td>
+        <td style="background-color:#6874d0" onclick="pick('#6874d0')"></td>
+        <td style="background-color:#6888cc" onclick="pick('#6888cc')"></td>
+        <td style="background-color:#689cc0" onclick="pick('#689cc0')"></td>
+        <td style="background-color:#68b494" onclick="pick('#68b494')"></td>
+        <td style="background-color:#74b474" onclick="pick('#74b474')"></td>
+        <td style="background-color:#84b468" onclick="pick('#84b468')"></td>
+        <td style="background-color:#9ca864" onclick="pick('#9ca864')"></td>
+        <td style="background-color:#b89c58" onclick="pick('#b89c58')"></td>
+        <td style="background-color:#c8c8c8" onclick="pick('#c8c8c8')"></td>
+        <td style="background-color:#d0d050" onclick="pick('#d0d050')"></td>
+        <td style="background-color:#cca05c" onclick="pick('#cca05c')"></td>
+        <td style="background-color:#e09470" onclick="pick('#e09470')"></td>
+        <td style="background-color:#e08888" onclick="pick('#e08888')"></td>
+        <td style="background-color:#d084c0" onclick="pick('#d084c0')"></td>
+        <td style="background-color:#b484dc" onclick="pick('#b484dc')"></td>
+        <td style="background-color:#9488e0" onclick="pick('#9488e0')"></td>
+        <td style="background-color:#7c8ce0" onclick="pick('#7c8ce0')"></td>
+        <td style="background-color:#7c9cdc" onclick="pick('#7c9cdc')"></td>
+        <td style="background-color:#7cb4d4" onclick="pick('#7cb4d4')"></td>
+        <td style="background-color:#7cd0ac" onclick="pick('#7cd0ac')"></td>
+        <td style="background-color:#8cd08c" onclick="pick('#8cd08c')"></td>
+        <td style="background-color:#9ccc7c" onclick="pick('#9ccc7c')"></td>
+        <td style="background-color:#b4c078" onclick="pick('#b4c078')"></td>
+        <td style="background-color:#d0b46c" onclick="pick('#d0b46c')"></td>
+        <td style="background-color:#dcdcdc" onclick="pick('#dcdcdc')"></td>
+        <td style="background-color:#e8e85c" onclick="pick('#e8e85c')"></td>
+        <td style="background-color:#dcb468" onclick="pick('#dcb468')"></td>
+        <td style="background-color:#eca880" onclick="pick('#eca880')"></td>
+        <td style="background-color:#eca0a0" onclick="pick('#eca0a0')"></td>
+        <td style="background-color:#dc9cd0" onclick="pick('#dc9cd0')"></td>
+        <td style="background-color:#c49cec" onclick="pick('#c49cec')"></td>
+        <td style="background-color:#a8a0ec" onclick="pick('#a8a0ec')"></td>
+        <td style="background-color:#90a4ec" onclick="pick('#90a4ec')"></td>
+        <td style="background-color:#90b4ec" onclick="pick('#90b4ec')"></td>
+        <td style="background-color:#90cce8" onclick="pick('#90cce8')"></td>
+        <td style="background-color:#90e4c0" onclick="pick('#90e4c0')"></td>
+        <td style="background-color:#a4e4a4" onclick="pick('#a4e4a4')"></td>
+        <td style="background-color:#b4e490" onclick="pick('#b4e490')"></td>
+        <td style="background-color:#ccd488" onclick="pick('#ccd488')"></td>
+        <td style="background-color:#e8cc7c" onclick="pick('#e8cc7c')"></td>
+        <td style="background-color:#ececec" onclick="pick('#ececec')"></td>
+        <td style="background-color:#fcfc68" onclick="pick('#fcfc68')"></td>
+        <td style="background-color:#ecc878" onclick="pick('#ecc878')"></td>
+        <td style="background-color:#fcbc94" onclick="pick('#fcbc94')"></td>
+        <td style="background-color:#fcb4b4" onclick="pick('#fcb4b4')"></td>
+        <td style="background-color:#ecb0e0" onclick="pick('#ecb0e0')"></td>
+        <td style="background-color:#d4b0fc" onclick="pick('#d4b0fc')"></td>
+        <td style="background-color:#bcb4fc" onclick="pick('#bcb4fc')"></td>
+        <td style="background-color:#a4b8fc" onclick="pick('#a4b8fc')"></td>
+        <td style="background-color:#a4c8fc" onclick="pick('#a4c8fc')"></td>
+        <td style="background-color:#a4e0fc" onclick="pick('#a4e0fc')"></td>
+        <td style="background-color:#a4fcd4" onclick="pick('#a4fcd4')"></td>
+        <td style="background-color:#b8fcb8" onclick="pick('#b8fcb8')"></td>
+        <td style="background-color:#c8fca4" onclick="pick('#c8fca4')"></td>
+        <td style="background-color:#e0ec9c" onclick="pick('#e0ec9c')"></td>
+        <td style="background-color:#fce08c" onclick="pick('#fce08c')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#000000" onclick="pick('#000000')"></td>
+        <td style="background-color:#ffffff" onclick="pick('#ffffff')"></td>
+
+    </tr>
+    
+    <tr>
+    </tr>
+    
+    <tr>
+    </tr>
+    
+    <tr>
+    </tr>
+    
+    <tr>
+    </tr>
+    </table>
+    
+    <br>
+    <div id="hex"></div>
+    
+    
+</body>
+</html>
